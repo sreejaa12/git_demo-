@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+    
+</head>
+<body>
+    <h1>QUIZ</h1>
+    <form name="quiz" id="quiz">
+        <div class="question">
+            <p>1.What does HTML stands for</p>
+            <p><input type="radio" name="question1" value="home tool markup language">Home tool markup language</p>
+            <p><input type="radio" name="question1" value="hyper text markup language">hyper text markup language</p>
+            <p><input type="radio" name="question1" value="hyperlinks and text markup language">hyperlinks and text markup language</p>
+        </div>
+        <div class="question">
+            <p>2.What is the correct HTML element for inserting a line break? </p>
+            <p><input type="radio" name="question2" value="break">break</p>
+            <p><input type="radio" name="question2" value="br">br</p>
+            <p><input type="radio" name="question2" value="lb">lb</p>
+
+        </div>
+        <div class="question">
+           <p>3.Choose the correct HTML element to define important text</p> 
+           <p><input type="radio" name="question3" value="important">important</p>
+           <p><input type="radio" name="question3" value="i">i</p>
+           <p><input type="radio" name="question3" value="strong">strong</p>
+           <p><input type="radio" name="question3" value="b">b</p>
+        </div>
+        <div class="question">
+            <p>4.Choose the correct HTML element for the largest heading:</p>
+            <p><input type="radio" name="question4" value="h6">h6</p>
+            <p><input type="radio" name="question4" value="head">head</p>
+            <p><input type="radio" name="question4" value="heading">heading</p>
+            <p><input type="radio" name="question4" value="h1">h1</p>
+        </div>
+        <div class="question">
+         <p>5.which HTML tag is used to define an internal style sheet</p>
+         <p><input type="radio" name="question5" value="script">script</p>
+         <p><input type="radio" name="question5" value="css">css</p>
+         <p><input type="radio" name="question5" value="style">style</p>
+        </div>
+        <div class="question">
+        <p>6.Which HTML attribute is used to define inline styles</p>
+        <p><input type="radio" name="question6" value="styles">styles</p>
+        <p><input type="radio" name="question6" value="class">class</p>
+        <p><input type="radio" name="question6" value="font">font</p>
+        <p><input type="radio" name="question6" value="style">style</p>
+        </div>
+        <div class="question">
+            <p>7.Which property is used to change the background color</p>
+            <p><input type="radio" name="question7" value="color">color</p>
+            <p><input type="radio" name="question7" value="bgcolor">bgcolor</p>
+            <p><input type="radio" name="question7" value="background-color">background-color</p>
+        </div>
+        <div class="question">
+        <p>8.Which CSS property is used to change the text color of an element</p>
+        <p><input type="radio" name="question8" value="color">color</p>
+        <p><input type="radio" name="question8" value="text-color">text-color</p>
+        <p><input type="radio" name="question8" value="fgcolor">fgcolor</p>
+        </div>
+        <div class="question">
+            <p>9.Which CSS property contorls the text size</p>
+            <p><input type="radio" name="question9" value="text-size">text-size</p>
+            <p><input type="radio" name="question9" value="font-style">font-color</p>
+            <p><input type="radio" name="question9" value="font-size">font-size</p>
+            <p><input type="radio" name="question9" value="text-style">text-style</p>
+        </div>
+        <div class="question">
+            <p>10.Which property is used to change the font of an element</p>
+            <p><input type="radio" name="question10" value="font-family">font-family</p>
+            <p><input type="radio" name="question10" value="font-style">font-style</p>
+            <p><input type="radio" name="question10" value="font-weight">font-weight</p>
+        </div>
+        <div class="center">
+            <input type="button" value="submit" onclick="check()">
+        </div>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
